@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_shape_corner"
+    android:layout_height="match_parent">
+    <TextView
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="长按开始发音"
+        android:textSize="18sp"
+        android:id="@+id/tv_record_tips"
+        android:textColor="#000"
+        />
+    <RelativeLayout
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/im_record_select"
+            android:src="@drawable/ic_luyin2"
+            android:id="@+id/im_start_record"
+            />
+        <ImageView
+            android:layout_marginRight="30dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/im_record_delete"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_delete"
+            android:background="@drawable/im_record_select"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#DBD9D9"/>
+    <TextView
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_bg_selector"
+        android:text="取消"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:id="@+id/cancel"/>
+
+</LinearLayout>
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_bg4"
+    tools:context=".MainActivity">
+    <com.example.ienglish.specialviews.RoundImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ieng"/>
+    <RelativeLayout
+        android:layout_marginBottom="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:text="登 录"
+            android:textColor="#ffffff"
+            android:background="@drawable/btn_main_login_selector"
+            android:layout_marginTop="230dp"
+            android:layout_gravity="center"
+            android:id="@+id/btn_login"
+            android:onClick="Login"/>
+        <Button
+
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_login"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_selector"
+            android:text="注 册"
+            android:layout_marginTop="40dp"
+            android:textColor="#ffffff"
+            android:onClick="Reg"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

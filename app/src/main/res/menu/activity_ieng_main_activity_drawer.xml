@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_meiwen"
+            android:icon="@drawable/ic_meiwensudu"
+            android:title="美文推荐" />
+        <item
+            android:id="@+id/nav_first"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="英文速查" />
+        <item
+            android:id="@+id/nav_second"
+            android:icon="@drawable/ic_meiwenfaxian"
+            android:title="美文发现" />
+        <item
+            android:id="@+id/nav_third"
+            android:icon="@drawable/ic_meiwen"
+            android:title="我的文章" />
+        <item
+            android:id="@+id/nav_fourth"
+            android:icon="@drawable/ic_zidian"
+            android:title="单词本" />
+       <!-- <item
+            android:id="@+id/nav_fifth"
+            android:icon="@drawable/ic_dictation"
+            android:title="单词听写" />-->
+    </group>
+
+    <item android:title="Message">
+        <menu>
+            <item
+                android:id="@+id/nav_mymsg"
+                android:icon="@drawable/ic_message"
+                android:title="我的资料" />
+<!--            <item-->
+<!--                android:id="@+id/nav_test"-->
+<!--                android:icon="@drawable/ic_message"-->
+<!--                android:title="测试" />-->
+        </menu>
+    </item>
+
+</menu>

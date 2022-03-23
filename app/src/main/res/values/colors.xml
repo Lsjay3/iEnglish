@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryDark">#fff</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="mtrl_textinput_default_box_stroke_color">#fff</color>
+    <color name="colorPress">#9C9B9B</color>
+    <color name="colorNormal">#fff</color>
+    <color name="swipeColor4">#9C9B9B</color>
+    <color name="swipeColor1">#3F51B5</color>
+    <color name="swipeColor2">#000000</color>
+    <color name="swipeColor3">#63B151</color>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_essay_name"
+        />
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:id="@+id/btn_delete_essay"
+        android:text="移除"
+        android:background="@drawable/btn_selector"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toLeftOf="@id/im_go_play" />
+    <ImageView
+        android:paddingTop="7dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:id="@+id/im_go_play"
+        android:layout_height="wrap_content"
+        android:src="@drawable/youjian"
+        />
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="speed">
+        <item>1.0x</item>
+        <item>0.5x</item>
+        <item>1.5x</item>
+        <item>2.0x</item>
+    </string-array>
+    <string-array name="adBlockDiv">
+        <item>head</item>
+        <item>title</item>
+        <item>article-end-adv-box</item>
+        <item>btm-button fix-bottom</item>
+        <item>para-info-box</item>
+    </string-array>
+</resources>
